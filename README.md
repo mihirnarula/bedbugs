@@ -1,81 +1,67 @@
-# dotslash-repo
+# ConQuest
 
-## Welcome to the dotslash Hackathon Repository! 🚀
-
-### Instructions:
-- **Fork this repository**: Only one member from each team must fork this repository to their own GitHub account.
-- **Commit directly to your fork**: All submissions, code, and documentation must be committed to your fork. This repository will serve as your primary workspace during the hackathon.
-
-- [Rulebook and Sponsor Problem Statements](https://tanmayrainanda.craft.me/dotslash-info-repo)
----
-
-## Requirements
-
-1. **Pitch Deck**  
-   - All submissions must include a **pitch deck** explaining your idea and its implementation.  
-   
-2. **Well-Commented Code**  
-   - Ensure that all code is well-documented with comments and follows standard coding practices.  
-   
-3. **Mid-Hack Folder**  
-   - Create a folder named `mid-hack` in your fork. This folder should contain all materials required for the **mid-hack submission**, including progress updates, initial implementation, and any supporting files.  
-
-4. **Citation File**  
-   - Include a `citations.md` file in your repository. All external resources (e.g., articles, tutorials, code snippets) must be properly cited here. Failure to do so may result in your project being flagged for plagiarism.
-
-5. **End-Hack Folder**  
-   - Create a folder named `end-hack` in your fork. This folder should contain all materials for the **final submission**, including the completed project, pitch deck, and any supplementary resources.
+**ConQuest** is a platform designed for consultants and aspiring business leaders to solve case studies and business problems in an engaging way. Think of it as "LeetCode for Consultants," where you can practice, learn, and improve your problem-solving skills in areas like strategy, operations, and human resources. The platform leverages AI to validate solutions and offers businesses an opportunity to crowdsource solutions for free.
 
 ---
 
-## Suggestions for Participants
-
-1. **Maintain Clean and Consistent Code**  
-   - Use comments and docstrings to document your code.  
-   - Follow a consistent naming convention for files, functions, and variables to improve readability.
-
-2. **Commit Regularly**  
-   - Push commits frequently rather than submitting a single large commit at the end.  
-   - This practice not only showcases your progress but also helps in avoiding plagiarism issues.
-
-3. **Version Control Best Practices**  
-   - Use branches for major features or experimental changes and merge them into the main branch after testing.  
-   - Write clear, concise commit messages for better traceability.
-
-4. **Utilize GitHub Issues and Pull Requests**  
-   - Track tasks and discussions using GitHub Issues.  
-   - Use Pull Requests (PRs) to review and merge changes within your team. This will help in maintaining a collaborative workflow.
+## Table of Contents
+1. [Features](#features)
+2. [How It Works](#how-it-works)
+3. [Tech Stack](#tech-stack)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ---
 
-## Submission Guidelines
+## Features
 
-- **Mid-Hack Checkpoint**  
-  Submit the contents of your `mid-hack` folder by the designated checkpoint time. This will include progress updates and preliminary work.
-
-- **Final Submission**  
-  Ensure that all files for your final project are stored in the `end-hack` folder. Your pitch deck and `citations.md` file must also be updated and included here.  
-
----
-
-## Resources
-
-1. **Git and GitHub Basics**  
-   - If you’re new to Git, check out these resources:  
-     - [Git Documentation](https://git-scm.com/doc)  
-     - [GitHub Guides](https://guides.github.com/)  
-
-2. **Project Ideas**  
-   - Explore hackathon project examples for inspiration:  
-     - [DevPost](https://devpost.com/)  
-     - [Awesome Hackathon Projects](https://github.com/daveverwer/awesome-hackathon-projects)  
+- **Case Studies Library**: Solve curated cases in categories like Strategy, Operations, and HR & Organization.
+- **AI-Powered Validation**: Our AI engine evaluates your solutions and provides instant feedback.
+- **Gamified Experience**: Earn points, maintain streaks, and climb the leaderboard.
+- **Custom Case Uploads**: Businesses can submit their own problems, benefiting from the community's collective expertise.
+- **Personalized Recommendations**: Suggestions for cases based on your progress and interests.
 
 ---
 
-## Code of Conduct
+## How It Works
 
-By participating in this hackathon, you agree to follow the event’s Code of Conduct. Be respectful, inclusive, and ensure a positive experience for all participants.  
+1. **For Users**:
+   - Browse the case library and pick a problem.
+   - Submit your solution in a structured format.
+   - Receive AI-generated feedback and suggestions for improvement.
 
-For any queries or support, feel free to contact the organizing team.  The full code of conduct can be found at [Fest Website](https://www.fitoorxprayas.in/rules)
+2. **For Businesses**:
+   - Upload real-world problems.
+   - View solutions submitted by the community.
+   - Benefit from innovative and diverse insights.
 
-Happy hacking! 🎉
+---
+
+## Tech Stack
+
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Backend**: Node.js (with Express.js)
+- **AI Engine**: OpenAI API (for solution evaluation)
+- **Build Tools**: Vite
+- **Deployment**: TBD
+
+---
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16+)
+- npm or Yarn
+
+## Usage
+
+- Navigate to different case categories.
+- Solve cases and submit solutions.
+- Track your progress, points, and streak on the dashboard.
+
+
+## Citations 
+- We have used Bolt for full stack generation as of now
