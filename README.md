@@ -8,10 +8,8 @@
 1. [Features](#features)
 2. [How It Works](#how-it-works)
 3. [Tech Stack](#tech-stack)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
+4. [Usage](#usage)
+
 
 ---
 
@@ -48,13 +46,6 @@
 - **Deployment**: TBD
 
 ---
-
-## Installation
-
-### Prerequisites
-Ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (v16+)
-- npm or Yarn
 
 ## Usage
 
